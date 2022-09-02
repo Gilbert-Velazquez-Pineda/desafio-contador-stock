@@ -6,6 +6,8 @@ import Prueba from './componentes/paginas/Prueba'
 import Test from './componentes/paginas/Test'
 import ItemListContainer from './componentes/navbar/ItemListContainer'
 import { useEffect, useState } from 'react';
+import ItemCount from './componentes/ItemCount';
+
 
 
 
@@ -27,6 +29,7 @@ function App() {
     <div className="App">
       <Router>
           <NavBar/>
+          <ItemCount/>
 
           <div className='my-2'>
           <strong>Contador: {counter}</strong>
